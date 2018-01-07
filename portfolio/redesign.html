@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Home page</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+
+<style>
+
+body {
+    font-family: "Helvetica", sans-serif;
+    background-color: #cacdcd;
+    margin-left: 6rem;
+    margin-right: 6rem;
+
+
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 100px;
+    text-align:center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
+
+        }
+    .link:visited {
+        color: #ce3b37;
+        text-decoration: none;
+        font-family: "Helvetica", sans-serif;
+
+
+    }
+
+    .link:hover {
+        color: #f1f1f1;
+        text-decoration: none;
+        font-family: "Helvetica", sans-serif;
+
+    }
+
+    .link{
+        padding-left: 450px;
+        padding top: 350px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+
+      .presentation:visited {
+        color: #ce3b37;
+        text-decoration: none;
+        font-family: "Helvetica", sans-serif;
+
+
+    }
+
+    .presentation:hover {
+        color: #f1f1f1;
+        text-decoration: none;
+        font-family: "Helvetica", sans-serif;
+
+    }
+
+    .presentation{
+        padding-left: 450px;
+        padding top: 350px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+
+</style>
+
+
+<body>
+
+<div class="container">
+ <section role="main" id="main">
+
+</section>
+</div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="projects.html">Projects</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<header class="section_group"></header>
+<div class="header-container"></div>
+
+<p>In this project we were commissioned to redesign already existing website with predefined groupe. The websites were messy, unreadable and old fashioned. Our task was to innovate it in   </p>
+
+<a href="http://sashasoltan.com/kea/01-web/redesign/index.html" class="link">website link</a>
+
+<a href="https://www.slideshare.net/PolinaJurankova/redesign-website" class="presentation">presentation</a>
+
+
+
+<header class="section_group"></header>
+<div class="header-container"></div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+</body>
+</html>
+
+
+
